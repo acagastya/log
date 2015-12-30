@@ -11,7 +11,7 @@ main ()
   FILE *fp =fopen("log.txt", "a"); //appending is important, but if you want to only last log, replace "a" with "w"
   if (fp == NULL)
     {
-      printf("An error occured while opening the file.\n");
+      printf("An error occurred while opening the file.\n");
       exit(1);
     }
   
